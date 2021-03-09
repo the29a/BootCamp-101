@@ -14,7 +14,9 @@ whatis
 Краткое описание команды мы может получить с помощью whatis
 
 Синтаксис:
+```
 the29a@host[~]$ whatis <tool>
+```
 
 Пример:
 ```
@@ -25,7 +27,9 @@ curl (1)             - transfer a URL
 man
 -----
 Синтаксис:
+```
 the29a@host[~]$ man <tool>
+```
 
 Давайте посмотрим на пример:
 Пример:
@@ -48,7 +52,9 @@ DESCRIPTION
 -h
 -----
 Синтаксис:
+```
 the29a@host[~]$ <tool> --help
+```
 
 Пример:
 ````
@@ -66,8 +72,9 @@ Usage: curl [options...] <url>
 ```
 Вы также можете использовать его сокращенную версию:
 Синтаксис:
-
+```
 the29a@host[~]$  <tool> -h
+```
 
 Пример:
 ```
@@ -91,8 +98,10 @@ apropos
 
 ```
 the29a@host[~]$ apropos <keyword>
+```
 
 Пример:
+```
 the29a@host[~]$ apropos sudo
 sudo (8)             - execute a command as another user
 sudo.conf (5)        - configuration for sudo front end
@@ -102,5 +111,5 @@ sudoedit (8)         - execute a command as another user
 sudoers (5)          - default sudo security policy plugin
 sudoreplay (8)       - replay sudo session logs
 visudo (8)           - edit the sudoers file
-````
+```
 Еще один полезный ресурс для получения помощи, если у нас есть проблемы с пониманием длинной команды: https://explainshell.com/
