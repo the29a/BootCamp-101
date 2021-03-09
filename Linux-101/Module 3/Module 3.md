@@ -1,4 +1,4 @@
-3. Встроенная документация и man-pages
+Встроенная документация и man-pages
 =======
 * whatis
 * man
@@ -17,8 +17,10 @@ whatis
 the29a@host[~]$ whatis <tool>
 
 Пример:
+```
 the29a@host:[~}$ whatis curl
 curl (1)             - transfer a URL
+```
 
 man
 -----
@@ -27,6 +29,7 @@ the29a@host[~]$ man <tool>
 
 Давайте посмотрим на пример:
 Пример:
+```
 the29a@host[~]$ man curl
 AME
        curl - transfer a URL
@@ -38,7 +41,7 @@ DESCRIPTION
        curl  is  a  tool  to  transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS,
        IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP).  The  command  is  de‐
        signed to work without user interaction.
-
+```
 
 Посмотрев несколько примеров, мы также можем быстро просмотреть дополнительные параметры, не просматривая всю документацию. У нас есть несколько способов сделать это.
 
@@ -48,6 +51,7 @@ DESCRIPTION
 the29a@host[~]$ <tool> --help
 
 Пример:
+````
 the29a@host[~]$ curl --help
 
 
@@ -59,13 +63,14 @@ Usage: curl [options...] <url>
      --cacert <file> CA certificate to verify peer against
      --capath <dir>  CA directory to verify peer against
  -E, --cert <certificate[:password]> Client certificate file and password
-
+```
 Вы также можете использовать его сокращенную версию:
 Синтаксис:
 
 the29a@host[~]$  <tool> -h
 
 Пример:
+```
 the29a@host[~]$ curl -h
 
 Usage: curl [options...] <url>
@@ -76,13 +81,15 @@ Usage: curl [options...] <url>
      --cacert <file> CA certificate to verify peer against
      --capath <dir>  CA directory to verify peer against
  -E, --cert <certificate[:password]> Client certificate file and password
- 
+ ````
+
  Как видим, результаты друг от друга в этом примере не отличаются. Другой инструмент, который может пригодиться вначале, - это apropos. На каждой странице руководства есть краткое описание. Этот инструмент ищет в описаниях экземпляры данного ключевого слова.
 Синтаксис:
 
 apropos
 -----
 
+```
 the29a@host[~]$ apropos <keyword>
 
 Пример:
@@ -95,5 +102,5 @@ sudoedit (8)         - execute a command as another user
 sudoers (5)          - default sudo security policy plugin
 sudoreplay (8)       - replay sudo session logs
 visudo (8)           - edit the sudoers file
-
+````
 Еще один полезный ресурс для получения помощи, если у нас есть проблемы с пониманием длинной команды: https://explainshell.com/
