@@ -32,15 +32,17 @@ Network Manger доступен как в системах с GUI, так и в 
 Ручная настройка в файлах конфигураци
 ----
 Для ручной настройки требуется отключить и запретить NetworkManager:
-
+```
 systemctl disable NetworkManager
 systemctl mask NetworkManager
-
+```
 
 В случае с Centos потребуется установить пакет network-scripts и запустить демон network.
+```
 systemctl enable network 
-
+```
 Пример настройки для Centos:
+```
 BOOTPROTO="static"
 IPADDR=192.168.0.140
 NETMASK=255.255.255.0
@@ -49,14 +51,15 @@ DNS1=192.168.0.140
 ONBOOT="yes"
 PREFIX=24
 DEFROUTE=yes
-
+```
 Пример настройки для Debian:
-
+```
 auto eth0
 iface eth0 inet static
     address 192.168.0.140
     netmask 255.255.255.0
     gateway 192.168.0.130
+```
 
 Настройка DNS-серверов:
 
