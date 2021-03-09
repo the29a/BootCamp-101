@@ -97,7 +97,8 @@ ping ya.ru
 
 Дополнительные ссылки:
 ----
-[NetworkManager на ArchWiki](https://wiki.archlinux.org/index.php/NetworkManager)
+[NetworkManager на ArchWiki](https://wiki.archlinux.org/index.php/NetworkManager)   
+
 [Настройка сети в Debian](https://wiki.debian.org/ru/NetworkConfiguration)
 
 [Red Hat Configuring and managing networking](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/configuring_and_managing_networking/index)
