@@ -5,5 +5,5 @@
 * Обзор
 
 To-do:   
-Firewalld - [ ]
-iptables - [ ]
+Firewalld - [ ]   
+iptables - [ ]   
