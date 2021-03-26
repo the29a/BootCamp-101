@@ -1,6 +1,6 @@
 # 11. Настройка фаервола
--iptables   
--firewalld   
+- iptables   
+- firewalld   
 
 Просмотр правил:
  
@@ -10,7 +10,7 @@
 
 ```iptables -I INPUT -s 192.168.0.130 -j DROP```
 
-Перенаправление портов:
+Перенаправление портов:   
 ```iptables -t nat -A PREROUTING -p tcp --dport 3000 -j REDIRECT --to-port 80```
 
 
@@ -38,7 +38,7 @@ iptables на примере ssh
 Посмотреть список правил можно командой:   
 ```sudo iptables -nvL```
 
-firewalld-
+firewalld
 ---
 Просмотр имеющейся конфигурации для зоны по умолчанию   
 ```firewall-cmd --get-default-zone```
@@ -59,7 +59,7 @@ Cписок всех зон:
 Добавление сервиса к зоне:   
 ```firewall-cmd --zone=public --add-service=http```
 
-Список сервисов зоны:
+Список сервисов зоны:   
 ```firewall-cmd --zone=public --list-services```
 
 Удаление сервиса из зоны:   
