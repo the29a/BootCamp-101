@@ -12,7 +12,7 @@ Mikrotik CLI
 ```quit```
 
 Отключение пользователя:   
-```user disable admin``
+```user disable admin```
 
 Просмотр пользователей:   
 ```user print```
@@ -69,6 +69,7 @@ Mikrotik CLI
 ```/system clock print```
 
 ФАЕРВОЛ.   
+---
 Настройка маскарадинга, чтобы чтобы внутренняя сеть не была видна с WAN порта:   
 ```ip firewall nat add chain=srcnat action=masquerade out-interface=WAN```
 
@@ -85,6 +86,7 @@ Mikrotik CLI
 ```/ip firewall dst-nat add action=nat protocol=tcp dst-address=10.0.21.12/30:80 to-dst-address=192.168.0.4```
 
 СИСТЕМА:   
+---
 Просмотр стандартных настроек:   
 ```/system default-configuration print```
 
@@ -129,6 +131,7 @@ log export file=log.rsc
 ```/ip service print```
 
 ПРОЧЕЕ.   
+---
 Переход на уровень выше:   
 ```/```
 
