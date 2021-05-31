@@ -32,7 +32,7 @@
 
 To-do:   
 29. Примеры восстановления при возникновении проблем загрузки 
-
+Добавить crontab и ссылки (https://crontab-generator.org/ https://crontab.guru/)
 
 ## Дополнительные ссылки
 [Статаья на Wiki](https://ru.wikipedia.org/wiki/Linux)
