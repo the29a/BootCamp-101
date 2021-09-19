@@ -26,3 +26,8 @@ the29a@host[~] $ apt update && apt dist-upgrade
     Отключите все нежелательные двоичные файлы SUID / SGID
 
 Этот список неполный, поскольку безопасность - это не продукт, а процесс. Это означает, что всегда необходимо предпринимать определенные шаги для лучшей защиты систем, и это зависит от администраторов, насколько хорошо они знают свои операционные системы. Чем лучше администраторы знакомы с системой и чем больше они обучены, тем лучше и безопаснее будут их меры безопасности и меры безопасности.
+
+[LinPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
+[Lynis](https://github.com/CISOfy/lynis)
+[rkhunter](https://github.com/installation/rkhunter)
+[chkrootkit](https://github.com/Magentron/chkrootkit)
