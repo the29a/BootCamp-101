@@ -1,3 +1,3 @@
 # BootCamp-101
 
-Внутренний курс для обучения.
+Learning course, notes, and cheatsheets. 
